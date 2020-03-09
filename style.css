@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -17,7 +17,7 @@ nav ul {
     width: 35%;
 }
 
-li {
+nav li {
     list-style: none;
 }
 
@@ -27,16 +27,6 @@ nav ul a {
     letter-spacing: 2px;
     font-weight: bold;
     font-size: 18px;
-}
-
-.nav-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-  
-.nav-container > li {
-    margin: 10px;
 }
 
 img {
