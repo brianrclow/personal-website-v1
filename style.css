@@ -31,9 +31,28 @@ nav ul a {
 
 img {
     padding: 20px;
+}
+
+.profile-photo {
     max-width: 400px
 }
 
 .section-title {
     padding: 20px; 
 }
+
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    margin: 10px auto;
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+  }
