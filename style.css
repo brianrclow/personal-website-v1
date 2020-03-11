@@ -1,6 +1,8 @@
 body {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
 }
 
 nav {
@@ -49,8 +51,13 @@ nav ul a {
 .contact-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
 
+.contact-block {
+    padding: 10px;
+    flex-direction: row;
 }
 
 .zoom {
@@ -81,3 +88,11 @@ nav ul a {
     border-width: 1px;
     border-color: black;
 }
+
+.footer {
+    padding: 10px;
+    text-align: center;
+    height: 20px;
+    background-color: #2d549e;
+    color: #e6e6e6;
+  }
