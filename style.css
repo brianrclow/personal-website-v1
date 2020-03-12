@@ -16,10 +16,12 @@ nav {
 nav ul {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     width: 35%;
 }
 
 nav li {
+    padding: 20px;
     list-style: none;
 }
 
@@ -77,8 +79,9 @@ nav ul a {
 
 .project-block {
     padding: 10px;
-    border-style: solid;
-    border-color: #2d549e;
+    background-color: #e6e6e6;
+    /* border-style: solid;
+    border-color: #2d549e; */
 }
 
 
