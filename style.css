@@ -99,3 +99,10 @@ nav ul a {
     background-color: #2d549e;
     color: #e6e6e6;
   }
+
+.resume-button {
+    background-color: #415781;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e6e6e6;
+}
