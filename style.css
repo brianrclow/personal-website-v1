@@ -84,9 +84,26 @@ nav ul a {
     display: flex;
     flex-direction: row;
     padding: 10px;
-    background-color: #e6e6e6;
-    /* border-style: solid;
-    border-color: #2d549e; */
+    max-width: 400px;
+    border-style: solid;
+    border-color: #2d549e;
+    margin: 10px;
+}
+
+.project-title {
+    margin: 10px;
+}
+
+
+.project-title-and-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+.project-info {
+
 }
 
 
