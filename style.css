@@ -71,6 +71,9 @@ nav ul a {
     transform: scale(1.1);
   }
 
+
+
+
 .project-container {
     display: flex;
     justify-content: space-around;
@@ -78,6 +81,8 @@ nav ul a {
 }
 
 .project-block {
+    display: flex;
+    flex-direction: row;
     padding: 10px;
     background-color: #e6e6e6;
     /* border-style: solid;
@@ -85,12 +90,66 @@ nav ul a {
 }
 
 
+
+
 .project-photo {
-    max-width: 100px;
+    max-width: 10vh;
+    max-height: 10vh;
     border-style: solid;
     border-width: 1px;
     border-color: black;
+    margin-right: 10px;
 }
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.resume-button {
+    background-color: #2d549e;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #e6e6e6;
+}
+
+.resume-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.github-button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #6e5494;
+}
+  
+.github-button:hover {
+    background-color: #6e5494;
+    color: white;
+}
+
+.demo-button {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #1d833d;
+}
+    
+.demo-button:hover {
+    background-color: #1d833d;
+    color: white;
+}
+
+
+
 
 .footer {
     padding: 10px;
@@ -100,12 +159,7 @@ nav ul a {
     color: #e6e6e6;
   }
 
-.resume-button {
-    background-color: #415781;
-    border-style: solid;
-    border-width: 2px;
-    border-color: #e6e6e6;
-}
+
 
 .img {
     width:100%;
