@@ -69,10 +69,7 @@ nav ul a {
 
 .zoom:hover {
     transform: scale(1.1);
-  }
-
-
-
+}
 
 .project-container {
     display: flex;
@@ -94,20 +91,11 @@ nav ul a {
     margin: 10px;
 }
 
-
 .project-title-and-link {
     display: flex;
     flex-direction: row;
     justify-content: start;
 }
-
-
-.project-info {
-
-}
-
-
-
 
 .project-photo {
     max-width: 10vh;
@@ -165,18 +153,14 @@ nav ul a {
     color: white;
 }
 
-
-
-
 .footer {
     padding: 10px;
     text-align: center;
     height: 20px;
     background-color: #2d549e;
     color: #e6e6e6;
-  }
-
-
+    padding-bottom: -50px;
+}
 
 .img {
     width:100%;
@@ -187,11 +171,17 @@ nav ul a {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 60%;
 }
 
+.thumbs {
+    width:150px;
+}
 
 .post-title {
+    margin: 50px;
     text-align: center;
 }
 
@@ -199,6 +189,27 @@ nav ul a {
     width: 50%;
 }
 
-.post-body {
-    margin: 20px;
+.section-title {
+    margin-top: 50px;
+}
+
+.blog-h2 {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.blog-h3 {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.blog-h4 {
+    text-emphasis: bold;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.blog-p {
+    margin-left: 60px;
+    margin-right: 60px;
 }
