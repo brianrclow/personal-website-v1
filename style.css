@@ -237,6 +237,7 @@ table {
 
 td {
     text-align: center;
+    column-rule-style: solid;
 }
   
 td, th {
@@ -244,6 +245,6 @@ td, th {
     padding: 8px;
 }
 
-table, th, td {
+/* table, th, td {
     border: 1px solid black;
-}
+} */
