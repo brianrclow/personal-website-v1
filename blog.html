@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
     <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
-    <title>Brian's Blog</title>
-    <link rel="stylesheet" type="text/css" href="style.css"\>
-    <link rel="icon" href="assets/b-icon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+        <title>Brian's Blog</title>
+        <link rel="stylesheet" type="text/css" href="style.css"\>
+        <link rel="icon" href="assets/b-icon.png">
     </head>
 <body>
-
+    <!-- Navigation -->
     <nav>
         <ul>
             <li><a href="index.html#about-section">About</a></li>
@@ -22,6 +22,9 @@
     <!-- Blog -->
     <div class="post-body">
         <h1 class="post-title">How Web Frameworks are Changing the Mobile and Web Landscape</h1>
+        <h2 class="blog-h2" style="text-align: center;">
+            By Brian R. Clow
+        </h2>
         <img class="center-images" src="assets/blog/frontendframeworks.png"/>
         
         <!-- Intro -->
@@ -55,7 +58,6 @@
                 I have included some definitions here to help in understanding some concepts talked about in this post. 
                 This will also help differentiate between different types of applications because they can be confusing. 
             </p>
-    
             <h4 class="blog-h4">
                 Components
             </h4>
@@ -63,7 +65,6 @@
                 A component is an individual piece of the overall user interface that is structured in a way that can be reused. 
                 Components are very similar to a JavaScript functions but instead they return HTML that is displayed.
             </p>
-    
             <h4 class="blog-h4">
                 Native Applications
             </h4>
@@ -74,7 +75,6 @@
                 These types of applications are not cross-platform to other devices running different operating systems. 
                 For example, in order to use an iOS application on Android, you would need to develop a clone of the iOS application in the native coding language for Android. 
             </p>
-    
             <h4 class="blog-h4">
                 Web Applications
             </h4>
@@ -82,7 +82,6 @@
                 Web applications are essentially websites that have been designed to adapt for mobile when opened on mobile devices. 
                 These types of applications do not have any more access to device hardware then a website does.
             </p>
-    
             <h4 class="blog-h4">
                 Progressive Web Applications
             </h4>
@@ -92,7 +91,6 @@
                 These types of application are cross platform because they use the web to display content. 
                 This means that a PWA will run and look similar across different devices. 
             </p>
-    
             <h4 class="blog-h4">
                 Hybrid Applications
             </h4>
@@ -102,7 +100,6 @@
                 Hybrid Applications usually have the same access to device hardware that a native application has. 
                 This allows developers that know web technologies to develop a native experience. 
             </p>
-    
             <h4 class="blog-h4">
                 Platforms
             </h4>
@@ -115,14 +112,11 @@
             </p>
         </div>
 
-
         <!-- Some advantages and disadvantages to using frameworks -->
         <h2 class="blog-h2">
             Some advantages and disadvantages to using frameworks
         </h2>
-
         <img class="center-images" src="assets/blog/thumbs.jpg"/>
-
 
         <!-- Advantages -->
         <h3 class="blog-h3" style="color:#27c14e">
@@ -162,6 +156,7 @@
             Anyone can easily find documentation, tutorials and example code on something similar to what they are working towards. 
             The plethora of support makes for a very low barrier of entry for beginners. 
         </p>
+
         <!-- Disadvantages -->
         <h3 class="blog-h3" style="color: #fc5e49;">
             Disadvantages
@@ -210,10 +205,30 @@
         </h2>
         <img class="center-images" src="assets/blog/developers.png"/>
         <p class="blog-p">
-            Many companies that have a digital presence use some sort of framework. 
-            This is mainly because of the advantages that each framework possess, but also because frameworks allow businesses and cheap and fast pathway to make software. 
-            Frameworks allow companies to rapidly prototype their product for all types platforms. 
-            They can build a product from a single codebase, that can run as a web application and mobile application that is supported on both iOS and Android. 
+            Frameworks make a developer's job easier and more interesting. 
+            They allow developers to create applications significantly faster than if they were to create everything from scratch. 
+            For example, creating an application that runs on iOS, Android and on the web would take significantly longer time to accomplish than creating a cross platform web application. 
+            The developer would need to create the iOS application using Objective-C or Swift, then create the Android application using Java or Kotlin and then finally create the web application with HTML, CSS and JavaScript. 
+            All of that developing would easily take months, but if the developer created a cross platform web application it could instantly run on all the platforms needed. 
+            When developing a cross platform application, the framework does much of the heavy lifting in regards to making sure the app runs properly on different devices and operating systems. 
+        </p>
+        <p class="blog-p">
+            None of these frameworks exists ten years ago. 
+            Each of them are new and changing every day, adding new tools for developers. 
+            Frameworks allow developers to rapidly prototype their applications and then scale them to production. 
+            Since many frameworks are free, this lowers the barrier to entry for developers and with the wealth of support, developing quality applications is becoming easier.
+        </p>
+        <p class="blog-p">
+            The demand for cross platform and mobile applications is still growing. 
+            The ability to rapidly develop applications that can easily go into production is crucial for many companies and startups. 
+            With many of the large frameworks backed by big tech companies, using frameworks to build applications isn't going away anytime soon. 
+            Also as frameworks grow in popularity there will be more and more libraries and extensions to add on ever increasing functionality. 
+        </p>
+        <p class="blog-p">
+            I see the growth of mobile and web frameworks as an evolution of the internet that is just starting. 
+            The internet is constantly changing and frameworks are aiding in the positive change. 
+            Eventually the lines will blur more between what a native application is compared to a web application. 
+            I hope that you can now see how frameworks are changing the traditional mobile and web landscape by blurring the lines that divide them. 
         </p>
 
         <!-- Popular mobile frameworks -->
@@ -222,26 +237,26 @@
         </h2>
         <img class="center-images" src="assets/blog/mobile_frameworks.png"/>
         <p class="blog-p">
-            <a target="_blank" href="https://ionicframework.com">Ionic</a>, released in 2013, is a free open-source cross platform UI toolkit for building mobile and desktop applications. 
+            <a target="_blank" title="https://ionicframework.com" href="https://ionicframework.com">Ionic</a>, released in 2013, is a free open-source cross platform UI toolkit for building mobile and desktop applications. 
             The Ionic Framework cna be used with vanilla JavaScript or can be connected to React, Angular or Vue.js as well. 
+            Ionic is able to compile both iOS and Android apps from a single codebase.
             This brings a powerful native UI toolkit to other frontend frameworks allowing developers to create hybrid applications from their already existing codebase. 
         </p>
-
         <p class="blog-p">
-            <a target="_blank" href="https://dotnet.microsoft.com/apps/xamarin">Xamarin</a>, released in 2013, is a free open-source cross platform UI framework used extend .NET for building iOS, Android and Windows Applications. 
+            <a target="_blank" title="https://dotnet.microsoft.com/apps/xamarin" href="https://dotnet.microsoft.com/apps/xamarin">Xamarin</a>, released in 2013, is a free open-source cross platform UI framework used extend .NET for building iOS, Android and Windows Applications. 
             Xamarin uses the tools in the .NET developer platform and adds libraries specific for development across platforms. The framework is owned by Microsoft. 
         </p>
-
         <p class="blog-p">
-            <a target="_blank" href="https://reactnative.dev">React Native</a>,
+            <a target="_blank" title="https://reactnative.dev" href="https://reactnative.dev">React Native</a>, released in 2015, is owned by Facebook and extends the React Framework to create native iOS/Android applications. 
+            React Native is cross platform and can compile both iOS and Android apps from a single codebase. 
+            This is a natural next step framework after learning React as it shares so much with React. 
         </p>
-
         <p class="blog-p">
-            <a target="_blank" href="https://flutter.dev">Flutter</a>,
+            <a target="_blank" title="https://flutter.dev" href="https://flutter.dev">Flutter</a>, released in 2017, is an open-source UI toolkit created by Google that is used to developer Android, iOS, Windows, Mac, Linux and Web applications. 
+            One interesting thing about Flutter is that it does not use web technologies but instead Google's own language, <a target="_blank" title="https://dart.dev" href="https://dart.dev">Dart</a>. 
+            Dart is a programming language that has been optimized for user interfaces and have cross platform compatibilities. 
+            Although Flutter is one of the newer frameworks, it is has been growing in popularity. 
         </p>
-
-
-        
 
         <!-- Popular web frameworks -->
         <h2 class="blog-h2">
@@ -249,7 +264,7 @@
         </h2>
         <img class="center-images" src="assets/blog/react-vue-angular.jpg"/>
         <p class="blog-p">
-            <a target="_blank" href="https://reactjs.org">React</a>, released in 2013, owned by Facebook and is the most popular frontend JavaScript framework. 
+            <a target="_blank" title="https://reactjs.org" href="https://reactjs.org">React</a>, released in 2013, owned by Facebook and is the most popular frontend JavaScript framework. 
             Since it is one of the older modern frameworks there are many libraries available to use with React to extend its functionality. 
             A few interesting things to note about React is that its architecture is component based for view only, it uses declarative views and stateful components.
             Developers does not need to describe how data gets to the view, they just need to describe what the data is. 
@@ -258,15 +273,15 @@
             This allows for better communication between components and makes programming easier for the developer.
         </p>
         <p class="blog-p">
-            <a target="_blank" href="https://vuejs.org">Vue.js</a>, released in 2014, was started and is owned by Even You. 
+            <a target="_blank" title="https://vuejs.org" href="https://vuejs.org">Vue.js</a>, released in 2014, was started and is owned by Even You. 
             Vue brings together many aspects of React and Angular but focuses their core library on the view layer in the frontend. 
-            Recently Vue was tested against other frontend frameworks in the <a target="_blank" href="https://snyk.io/blog/javascript-frameworks-security-report-2019/">JavaScript Frameworks Security Report 2019</a> provided by snyk. 
+            Recently Vue was tested against other frontend frameworks in the <a target="_blank" title="https://snyk.io/blog/javascript-frameworks-security-report-2019/" href="https://snyk.io/blog/javascript-frameworks-security-report-2019/">JavaScript Frameworks Security Report 2019</a> provided by snyk. 
             One interesting aspect of Vue is that it bundles the code for the component in one file. 
             This means that the html, css and typescript are all separated out into one component file. 
             Vue is also known to be less complicated for beginner when compared to React or Angular. 
         </p>
         <p class="blog-p">
-            <a target="_blank" href="https://angular.io">Angular</a>, released in 2016, is owned by Google and has been rapidly growing in popularity since its more recent debut. 
+            <a target="_blank" title="https://angular.io" href="https://angular.io">Angular</a>, released in 2016, is owned by Google and has been rapidly growing in popularity since its more recent debut. 
             Angular has a very large library and is known as one of the more difficult frameworks to learn for beginners. 
             The structure of an Angular app is very different then React or Vue because in addition to using components it uses a Model, Controller, View structure. 
             This means that it is not just dealing with the view layer but also the model and the controller as well. 
@@ -282,13 +297,12 @@
 
         <!-- References -->
         <h2 class="blog-h2">
-            References and Resources
+            References and Resources Used
         </h2>
         <p class="blog-p">
             <a title="https://ionicframework.com/books/hybrid-vs-native" href="https://ionicframework.com/books/hybrid-vs-native">
                 Hybrid vs. Native E-Book
         </p>
-
         <p class="blog-p">
             <a title="https://www.mobileappdaily.com/top-cross-platform-app-devp-frameworks" href="https://www.mobileappdaily.com/top-cross-platform-app-devp-frameworks">
                 Top Cross Platform App Development Frameworks in 2020
