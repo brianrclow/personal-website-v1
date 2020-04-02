@@ -227,3 +227,23 @@ nav ul a {
     margin-right: 80px;
     font-family: 'Merriweather Sans', sans-serif;
 }
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    overflow-x:auto;
+}
+
+td {
+    text-align: center;
+}
+  
+td, th {
+    text-align: center;
+    padding: 8px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
