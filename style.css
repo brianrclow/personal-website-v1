@@ -177,12 +177,20 @@ nav ul a {
 }
 
 .thumbs {
-    width:150px;
+    /* width:50px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 20px; */
+    float: right;
 }
 
 .post-title {
     margin: 50px;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .post-title-photo {
@@ -191,25 +199,31 @@ nav ul a {
 
 .section-title {
     margin-top: 50px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-h2 {
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-h3 {
     margin-left: 40px;
     margin-right: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-h4 {
     text-emphasis: bold;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-p {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-family: 'Merriweather Sans', sans-serif;
 }
