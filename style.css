@@ -176,16 +176,6 @@ nav ul a {
     width: 60%;
 }
 
-.thumbs {
-    /* width:50px;
-    padding: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px; */
-    float: right;
-}
-
 .post-title {
     margin: 50px;
     text-align: center;
@@ -217,34 +207,23 @@ nav ul a {
 
 .blog-h4 {
     text-emphasis: bold;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 70px;
+    margin-right: 70px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
 .blog-p {
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
     font-family: 'Merriweather Sans', sans-serif;
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    overflow-x:auto;
+.definitions-title {
+    text-align: center;
 }
 
-td {
-    text-align: center;
-    column-rule-style: solid;
+.definitions-div {
+    margin: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-  
-td, th {
-    text-align: center;
-    padding: 8px;
-}
-
-/* table, th, td {
-    border: 1px solid black;
-} */
