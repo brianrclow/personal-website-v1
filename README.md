@@ -1,6 +1,6 @@
 # brianrclow-website
 
-brianrclow-website is my personal website where I keep up to date information about myself, my projects and links to other areas of interest.
+brianrclow-website is my personal website where I keep up to date information about myself, my projects and links to other areas of interest. You can access the live version here: [brianrclow.com](https://brianrclow.com)
 
 ## Motivation
 
