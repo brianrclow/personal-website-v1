@@ -1,14 +1,11 @@
 # brianrclow-website
 
-brianrclow-website is my personal website where I keep up to date information about myself, my projects and links to other areas of interest. You can access the live version here: [brianrclow.com](https://brianrclow.com)
+brianrclow-website is my personal website where I keep up to date information about myself, my projects and links to other areas of interest. This version is no longer live, check out my new version here: [brianrclow.com](https://brianrclow.com)
 
 ## Motivation
 
-I wanted to learn more about the process of web development and hosting. I also wanted a place where I could link to my other social accounts and be a hub for me as a person and as a developer.
+I wanted to learn more about the process of web development and how to host a website. I also wanted a place where I could link to my other social accounts and be a hub for me as a person and as a developer.
 
-## For the future...
-
-I would like to keep adding to this website over this Fall 2020 semester as I complete my degree. I want to learn more about web development and understand more about how the industry works.
 
 ## License
 [MIT](LICENSE)
