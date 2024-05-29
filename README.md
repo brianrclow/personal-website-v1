@@ -1,6 +1,6 @@
 # personal-website-v1
 
-personal-website-v1 is my first take on a personal website where I keep up to date information about myself, my projects and links to other areas of interest. This version is no longer live, check out my new version here: [personal-website-v2](https://github.com/brianrclow/personal-website-v2/)
+personal-website-v1 is my first take on a personal website where I keep up to date information about myself, my projects and links to other areas of interest. This version is no longer live, check out my new version here: [portfolio]([https://github.com/brianrclow/personal-website-v2/](https://github.com/brianrclow/portfolio))
 
 ## Motivation
 
